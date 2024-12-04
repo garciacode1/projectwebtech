@@ -1,10 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JUAN DAVID GARCIA Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/site.css">
 </head>
 <body>
+<header>
+    <div class="bg-blue-400 font-extrabold text-3xl container flex flex-col items-center justify-center p-6 mx-auto md:flex-row gap-2">
+        <h1>Juan Garcia Portfolio</h1>
+        <img src="https://placehold.co/64?text=logo" alt="Logo">
+    </div>
+    <nav>
+        <ul class="flex flex-col md:flex-row text-amber-800 bg-amber-400 font-bold text-3xl pl-6 ml-6 gap-6 md:gap-10 border-l border-gray-200 md:mr-auto border border-dashed justify-center">
+            <li><a href="./index.html">Home | </a></li>
+            <li><a href="./about.html">About | </a></li>
+            <li><a href="./resume.html">Resumé | </a></li>
+            <li><a href="./contact.html">Contact | </a></li>
+            <li><a href="./projects.html">Projects | </a></li>
+            <li><a href="./sampleprojects.html">Sample Project | </a></li>
+        </ul>
+    </nav>
+</header>
 
+<main>
+    <article class="flex flex-col justify-center items-center gap-10 mb-10">
+        <header>
+            <h2 class="font-bold text-4xl">Personal Website</h2>
+            <p class="text-3xl">"A wider look at my life" by Juan David Garcia</p>
+        </header>
+
+        <!-- Section for phases -->
+        <div class=" flex flex-wrap-reverse justify-center items-center gap-5">
+
+            <section class="1/4 border border-gray-500 flex flex-col gap-4 p-4 text-3xl  justify-center items-center w-[300px] h-[300px]">
+                <a href="phase-3">
+                    <h4>I enjoy of views!</h4>
+                    <img src="assets/img/img3.jpg"/>
+                </a>
+            </section>
+            <section class="1/4 border border-gray-500 flex flex-col gap-4 p-4 text-3xl justify-center items-center">
+                <a href="phase-4">
+                    <h4>Family time is important.</h4>
+                    <img src="/assets/img/img2.jpg" class="w-[200px] h-[200px] object-cover"/>
+                </a>
+            </section>
+            <section class="1/4 border border-gray-500 flex flex-col gap-4 p-4 text-5xl justify-center items-center w-[300px] h-[300px]">
+                <a href="#">
+                    <h4>I like exploring...</h4>
+                    <img src="./assets/img/img1.jpg" class="w-1/2"/>
+                </a>
+            </section>
+        </div>
+    </article>
+</main>
+
+<footer class="text-black bg-yellow-200 text-9xl body-font w-full container flex flex-col items-start justify-between p-6 mx-auto md:flex-row gap-2">
+    <a class="flex items-center mb-4 title-font md:mb-0 gap-2 hover:text-white transition duration-500 ease-in-out">
+        <img src="https://placehold.co/64?text=logo" alt="Logo" class="h-6">
+        <h1 class="text-lg">Site Name</h1>
+    </a>
+    <div class="flex flex-wrap text-lg pl-6 ml-6 text-base border-l border-gray-400 grow">
+        <p class="m-auto">
+            © Copyright 2024 JUAN DAVID GARCIA, all rights reserved.
+        </p>
+    </div>
+    <div class="flex flex-wrap text-lg pl-6 ml-6 text-base border-l border-gray-400 md:mr-auto gap-2">
+        <a href="./about.html" class="border-b border-gray-400 hover:border-gray-200 hover:text-white transition duration-500 ease-in-out">About</a>
+        <a href="./contact.html" class="border-b border-gray-400 hover:border-gray-200 hover:text-white transition duration-500 ease-in-out">Contact</a>
+        <a href="./resume.html" class="border-b border-gray-400 hover:border-gray-200 hover:text-white transition duration-500 ease-in-out">Resumé</a>
+        <a href="./projects.html" class="border-b border-gray-400 hover:border-gray-200 hover:text-white transition duration-500 ease-in-out">Projects</a>
+        <a href="./sampleprojects.html" class="border-b border-gray-400 hover:border-gray-200 hover:text-white transition duration-500 ease-in-out">Sample Project</a>
+
+    </div>
+</footer>
 </body>
 </html>
+
+
+
