@@ -1,4 +1,5 @@
-This project is created to contain all the work done during the semester.
+This project is created to contain all the work done during the semester:
+Color scheme:
 Color scheme:
 | Name     | RGB            | HEX      |
 |----------|----------------|----------|
